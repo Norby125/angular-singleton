@@ -13,8 +13,7 @@ import { SubApp1Module } from './plugins/sub-app1/sub-app1.module';
     BrowserModule,
     CommonModule,
     ShellModule.forRoot(),
-    RouterModule.forRoot(AppModuleRoutes),
-    SubApp1Module
+    RouterModule.forRoot(AppModuleRoutes)
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]

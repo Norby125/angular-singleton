@@ -1,15 +1,18 @@
 import { Injectable } from '@angular/core';
+import { CoreModule } from './core.module';
 
-@Injectable()
+@Injectable(
+  {providedIn: CoreModule}
+)
 export class CounterService {
-  private counter: number = 0;
+  private counter = 0;
   constructor() { }
 
   getCounter(): number {
     return this.counter;
   }
 
-  increaseCounter(){
+  increaseCounter() {
       return this.counter++;
   }
 }

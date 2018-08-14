@@ -15,11 +15,13 @@ export class ShellModule {
       providers: [HelloWorldLoggerService]
     };
   }
+
   constructor( @Optional() @SkipSelf() parentModule: ShellModule) {
     if (parentModule) {
       throw new Error(
         'ShellModule is already loaded. Import it in the AppModule only');
     }
+    SystemJS.import('app')
   }
 
 

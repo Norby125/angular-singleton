@@ -54,7 +54,8 @@
     "protractor": "~5.4.0",
     "rimraf": "^2.6.2",
     "@types/node": "^10.7.0",
-    "@types/jasmine": "2.8.8"
+    "@types/jasmine": "2.8.8",
+    "@types/systemjs": "^0.20.6"
   },
   "repository": {}
 }
