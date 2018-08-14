@@ -2,11 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { ShellModule } from './shell/common/shell.module';
+import { ShellModule } from './common/shell.module';
 import { RouterModule } from '@angular/router';
 import { AppModuleRoutes } from './app.routes';
 import { CommonModule } from '@angular/common';
-import { SubApp1Module } from './shell/plugins/sub-app1/sub-app1.module';
+import { SubApp1Module } from './plugins/sub-app1/sub-app1.module';
 
 @NgModule({
   imports: [
