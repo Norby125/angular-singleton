@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CoreModule } from './core/core.module';
-import { HelloWorldLoggerService } from '../../helloWorldLogger.service';
+import { HelloWorldLoggerService } from '../../common/helloWorldLogger.service';
 
 @NgModule({
     imports: [CoreModule.forRoot()],

@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 
 import { Feature2Component } from './feature2.component';
-import { ShellModule } from '../../../shell.module';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
@@ -17,7 +16,7 @@ import { RouterModule } from '@angular/router';
     declarations: [Feature2Component],
     providers: [],
 })
-export class Feature2Module { 
+export class Feature2Module {
     constructor() {
         console.log('Feature2Module loaded');
     }

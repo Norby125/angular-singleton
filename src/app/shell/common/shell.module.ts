@@ -1,5 +1,5 @@
 import { NgModule, Optional, SkipSelf, ModuleWithProviders } from '@angular/core';
-import { HelloWorldLoggerService } from "./helloWorldLogger.service";
+import { HelloWorldLoggerService } from './helloWorldLogger.service';
 
 @NgModule({
   imports: [],
@@ -14,7 +14,6 @@ export class ShellModule {
       providers: [HelloWorldLoggerService]
     };
   }
-  
   constructor( @Optional() @SkipSelf() parentModule: ShellModule) {
     if (parentModule) {
       throw new Error(
