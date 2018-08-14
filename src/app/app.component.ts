@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 
   <button routerLink="/feature1">Feature1</button>
   <button routerLink="/feature2">Feature2</button>
+  <button routerLink="/feature3">Feature3</button>
 
   <router-outlet></router-outlet>`,
 })

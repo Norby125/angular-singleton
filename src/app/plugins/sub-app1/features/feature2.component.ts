@@ -4,8 +4,8 @@ import { CounterService } from '../core/counter.service';
 @Component({
     selector: 'feature-2',
     template: `
-        <h1>Feature2</h1>
-        <button (click)=increase()>Increase counter F2</button>`
+        <h2>Feature2</h2>
+        <button (click)= increase()>Increase counter F2</button>`
 })
 
 export class Feature2Component implements OnInit {

@@ -1,5 +1,6 @@
 import { NgModule, Optional, SkipSelf, ModuleWithProviders } from '@angular/core';
 import { HelloWorldLoggerService } from './helloWorldLogger.service';
+import { SubApp1Module } from '../plugins/sub-app1/sub-app1.module';
 
 @NgModule({
   imports: [],

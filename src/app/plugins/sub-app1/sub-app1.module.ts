@@ -9,8 +9,8 @@ import { HelloWorldLoggerService } from '../../common/helloWorldLogger.service';
     providers: [],
 })
 export class SubApp1Module {
-    constructor(HelloWorldLoggerService: HelloWorldLoggerService) {
-        HelloWorldLoggerService.say();
+    constructor(helloWorldLoggerService: HelloWorldLoggerService) {
+        helloWorldLoggerService.say();
         console.log('SubApp1Module loaded');
     }
 }
