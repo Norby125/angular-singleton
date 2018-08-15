@@ -21,7 +21,6 @@ export class ShellModule {
       throw new Error(
         'ShellModule is already loaded. Import it in the AppModule only');
     }
-    SystemJS.import('app')
   }
 
 

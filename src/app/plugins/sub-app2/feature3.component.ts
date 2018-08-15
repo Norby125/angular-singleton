@@ -5,7 +5,7 @@ import { CounterService } from '../sub-app1/core/counter.service';
     selector: 'feature-3',
     template: `
         <h2>Feature3</h2>
-        Instance of counterService (should be undefined) => {{counterService}}
+        Instance of counterService (should be undefined) => {{counterService || 'undefined'}}
         `
 })
 
